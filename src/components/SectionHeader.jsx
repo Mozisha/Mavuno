@@ -40,7 +40,7 @@ export function SectionHeader({
       </h2>
       {lead ? (
         <p
-          className={`text-[17px] leading-[1.75] max-w-2xl ${
+          className={`font-serif text-[17px] leading-[1.75] max-w-2xl ${
             dark ? "text-cream/70" : "text-slate"
           }`}
         >

@@ -39,7 +39,7 @@ export default function ValueProposition() {
           </h2>
         </Reveal>
         <Reveal delay={140}>
-          <p className="mt-6 max-w-2xl text-[16.5px] leading-[1.75] text-cream/80">
+          <p className="mt-6 max-w-2xl font-serif text-[16.5px] leading-[1.75] text-cream/80">
             Your tax director signs their name to what Mavuno produces. That
             signature is only worth something if the underlying work is
             rigorous enough to defend under audit.
@@ -56,7 +56,7 @@ export default function ValueProposition() {
                 <h3 className="mt-6 text-[19px] font-semibold tracking-tight text-cream">
                   {p.k}
                 </h3>
-                <p className="mt-3 text-[13.5px] leading-[1.75] text-cream/75">
+                <p className="mt-3 font-serif text-[13.5px] leading-[1.75] text-cream/75">
                   {p.v}
                 </p>
                 <span

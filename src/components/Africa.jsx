@@ -146,14 +146,14 @@ export default function Africa() {
               </h2>
             </Reveal>
             <Reveal delay={140}>
-              <p className="mt-6 max-w-xl text-[16.5px] leading-[1.75] text-slate">
+              <p className="mt-6 max-w-xl font-serif text-[16.5px] leading-[1.75] text-slate">
                 Transfer pricing work depends on the quality of the underlying
                 data. Across African markets, that data is fragmented,
                 inconsistent, and often difficult to extract at scale.
               </p>
             </Reveal>
             <Reveal delay={200}>
-              <p className="mt-6 border-l-2 border-olive/60 pl-5 text-[16.5px] font-medium leading-[1.75] text-ink">
+              <p className="mt-6 border-l-2 border-olive/60 pl-5 font-serif text-[16.5px] font-medium leading-[1.75] text-ink">
                 Mavuno is built around those realities rather than asking
                 African businesses to adapt to infrastructure designed
                 elsewhere.

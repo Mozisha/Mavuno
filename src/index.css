@@ -3,6 +3,7 @@
 @theme {
   --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-mono: "Roboto Mono", "SF Mono", Menlo, monospace;
+  --font-serif: "Source Serif 4", "Georgia", "Times New Roman", serif;
 
   --color-forest: #062a20;
   --color-forest-light: #0a3a2c;

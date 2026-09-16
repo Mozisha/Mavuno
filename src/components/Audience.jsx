@@ -48,7 +48,7 @@ export default function Audience() {
                 <h3 className="mt-8 text-[19px] font-semibold leading-snug tracking-tight text-ink">
                   {a.k}
                 </h3>
-                <p className="mt-3 flex-1 text-[14.5px] leading-[1.75] text-slate">
+                <p className="mt-3 flex-1 font-serif text-[14.5px] leading-[1.75] text-slate">
                   {a.body}
                 </p>
                 <div className="mt-7 flex items-center gap-3 border-t border-line pt-5">

@@ -117,7 +117,7 @@ export default function Solution() {
                       <h3 className="mt-3 text-[19px] font-semibold tracking-tight text-ink">
                         {s.title}
                       </h3>
-                      <p className="mt-2 text-[14px] leading-[1.75] text-slate">
+                      <p className="mt-2 font-serif text-[14px] leading-[1.75] text-slate">
                         {s.body}
                       </p>
                       <div className="mt-5 inline-flex items-center gap-2 rounded border border-line bg-cream px-3 py-1.5">

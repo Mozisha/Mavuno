@@ -60,7 +60,7 @@ export default function HowItWorks() {
                     <h3 className="text-[17px] font-semibold tracking-tight text-ink">
                       {s.title}
                     </h3>
-                    <p className="mt-2 text-[13.5px] leading-[1.7] text-slate">
+                    <p className="mt-2 font-serif text-[13.5px] leading-[1.7] text-slate">
                       {s.body}
                     </p>
                   </div>

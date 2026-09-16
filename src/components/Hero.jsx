@@ -134,7 +134,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={140}>
-            <p className="mt-6 max-w-xl text-[16.5px] leading-[1.75] text-slate">
+            <p className="mt-6 max-w-xl font-serif text-[16.5px] leading-[1.75] text-slate">
               Regulators are tightening. The mid-market has been solving
               compliance with tools built for someone else's markets.
             </p>

@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <Logo tone="light" showWordmark={false} size="lg" />
-            <p className="mt-6 max-w-sm text-[14.5px] leading-[1.75] text-cream/70">
+            <p className="mt-6 max-w-sm font-serif text-[14.5px] leading-[1.75] text-cream/70">
               Transfer pricing infrastructure for African corporate groups.
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col items-start justify-between gap-6 border-t border-cream/15 pt-8 md:flex-row md:items-center">
-          <p className="max-w-md text-[13.5px] italic leading-relaxed text-cream/60">
+          <p className="max-w-md font-serif text-[13.5px] italic leading-relaxed text-cream/60">
             "Africa's next decade will be defined by the infrastructure we
             build for ourselves."
           </p>

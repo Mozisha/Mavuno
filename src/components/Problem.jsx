@@ -46,7 +46,7 @@ export default function Problem() {
                 <h3 className="mt-8 text-[19px] font-semibold tracking-tight text-ink">
                   {p.title}
                 </h3>
-                <p className="mt-3 text-[14.5px] leading-[1.75] text-slate">
+                <p className="mt-3 font-serif text-[14.5px] leading-[1.75] text-slate">
                   {p.body}
                 </p>
               </Card>

@@ -19,7 +19,7 @@ export default function CTASection() {
           </h2>
         </Reveal>
         <Reveal delay={140}>
-          <p className="mx-auto mt-6 max-w-xl text-[16.5px] leading-[1.75] text-slate">
+          <p className="mx-auto mt-6 max-w-xl font-serif text-[16.5px] leading-[1.75] text-slate">
             Talk to us about how Mavuno can support your African transfer
             pricing workflow.
           </p>
