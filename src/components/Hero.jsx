@@ -149,7 +149,7 @@ export default function Hero() {
           <Reveal delay={260}>
             <div className="mt-9 flex flex-wrap items-center gap-4">
               <Button href="#contact" size="lg">
-                Talk to Mavuno
+                Contact Us
                 <ArrowIcon />
               </Button>
               <Button href="#how-it-works" size="lg" variant="outline">

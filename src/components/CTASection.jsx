@@ -27,7 +27,7 @@ export default function CTASection() {
         <Reveal delay={200}>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Button href="mailto:hello@mavuno.io" size="lg">
-              Talk to Mavuno
+              Contact Us
               <ArrowIcon />
             </Button>
             <Button href="mailto:hello@mavuno.io" size="lg" variant="outline">
