@@ -115,7 +115,7 @@ Contact Us
             : "invisible pointer-events-none opacity-0"
         }`}
       >
-        <div className="flex h-full flex-col overflow-y-auto pt-6 pb-10">
+        <div className="h-full overflow-y-auto pt-6 pb-10">
           <div className="container-x">
             <div className="flex flex-col divide-y divide-line border-b border-line">
               {navItems.map((item, i) => (
