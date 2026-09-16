@@ -129,22 +129,20 @@ export default function Hero() {
 
           <Reveal delay={80}>
             <h1 className="mt-6 text-[clamp(2.6rem,6.2vw,4.6rem)] font-semibold leading-[1.04] tracking-tight-l text-ink">
-              Transfer pricing, grounded in{" "}
-              <span className="text-forest">African data.</span>
+              Transfer pricing infrastructure for African corporate groups.
             </h1>
           </Reveal>
 
           <Reveal delay={140}>
-            <p className="mt-5 text-[19px] font-medium leading-snug tracking-tight text-ink">
-              The comparables spine for African corporate groups.
+            <p className="mt-6 max-w-xl text-[16.5px] leading-[1.75] text-slate">
+              Regulators are tightening. The mid-market has been solving
+              compliance with tools built for someone else's markets.
             </p>
           </Reveal>
 
           <Reveal delay={200}>
-            <p className="mt-5 max-w-xl text-[16.5px] leading-[1.75] text-slate">
-              Mavuno builds transfer pricing infrastructure for African
-              corporate groups — purpose-built for African data realities and
-              calibrated to how African tax authorities actually work.
+            <p className="mt-4 text-[19px] font-semibold tracking-tight text-forest">
+              We're building what should have existed all along.
             </p>
           </Reveal>
 
