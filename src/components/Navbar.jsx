@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Logo from "./Logo.jsx";
 import Button from "./Button.jsx";
 
 const navItems = [
@@ -46,7 +45,7 @@ export default function Navbar() {
             className="flex items-center"
             aria-label="Mavuno home"
           >
-            <Logo showWordmark={false} size="xl" />
+            <img src="/mavuno-logo.png" alt="Mavuno" className="h-12 w-auto" />
           </a>
 
           <div className="hidden items-center gap-8 lg:flex">

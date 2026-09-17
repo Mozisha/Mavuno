@@ -1,5 +1,3 @@
-import Logo from "./Logo.jsx";
-
 const footerNav = [
   { label: "Product", href: "#product" },
   { label: "How It Works", href: "#how-it-works" },
@@ -15,7 +13,7 @@ export default function Footer() {
       <div className="container-x pt-16 pb-10 md:pt-20">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <Logo tone="light" showWordmark={false} size="xl" />
+            <img src="/mavuno-logo.png" alt="Mavuno" className="h-12 w-auto" />
             <p className="mt-6 max-w-sm font-serif text-[14.5px] leading-[1.75] text-cream/70">
               Transfer pricing infrastructure for African corporate groups.
             </p>
