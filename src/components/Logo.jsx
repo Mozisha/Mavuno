@@ -2,6 +2,7 @@ const sizes = {
   sm: "h-10 w-10",
   md: "h-12 w-12",
   lg: "h-16 w-16",
+  xl: "h-[72px] w-[72px]",
 };
 
 export default function Logo({

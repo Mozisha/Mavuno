@@ -46,7 +46,7 @@ export default function Navbar() {
             className="flex items-center"
             aria-label="Mavuno home"
           >
-            <Logo showWordmark={false} size="lg" />
+            <Logo showWordmark={false} size="xl" />
           </a>
 
           <div className="hidden items-center gap-8 lg:flex">

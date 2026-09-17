@@ -6,18 +6,12 @@ const audiences = [
   {
     k: "Mid-market corporate groups",
     n: "01",
-    body: "A workflow product that produces defensible benchmarking studies, local files, and audit response documentation at a fraction of Big 4 cost and time.",
+    body: "A workflow product that produces defensible benchmarking studies, local files, and audit response documentation at a fraction of the cost and time of traditional providers.",
     tag: "defensible work · lower cost",
   },
   {
-    k: "Big 4 firms",
-    n: "02",
-    body: "Accelerate African TP delivery. Spend less practitioner time on manual data assembly and more time on analytical judgment.",
-    tag: "practitioner time · judgment",
-  },
-  {
     k: "Revenue authorities",
-    n: "03",
+    n: "02",
     body: "Neutral access to verified African corporate intelligence. The data infrastructure supports analysis while enforcement judgment stays with the authority.",
     tag: "neutral data · enforcement stays",
   },
@@ -30,10 +24,10 @@ export default function Audience() {
         <SectionHeader
           eyebrow="Who it's for"
           title="Built for the African transfer pricing ecosystem."
-          lead="One verified data spine supports the whole ecosystem — the groups being assessed, the firms defending them, and the authorities assessing them."
+          lead="One verified data spine supports the whole ecosystem — the groups being assessed and the authorities assessing them."
         />
 
-        <div className="mt-14 grid gap-5 lg:grid-cols-3">
+        <div className="mt-14 grid gap-5 sm:grid-cols-2">
           {audiences.map((a, i) => (
             <Reveal key={a.n} delay={i * 90}>
               <Card className="flex h-full flex-col">

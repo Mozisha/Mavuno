@@ -120,15 +120,8 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px" aria-hidden="true" />
       <div className="container-x grid items-center gap-14 pt-16 pb-20 md:pt-24 md:pb-28 lg:grid-cols-12 lg:gap-10">
         <div className="lg:col-span-7">
-          <Reveal>
-            <span className="eyebrow-label inline-flex items-center gap-3 text-olive">
-              <span className="h-px w-8 bg-olive/60" aria-hidden="true" />
-              MAVUNO
-            </span>
-          </Reveal>
-
           <Reveal delay={80}>
-            <h1 className="mt-6 text-[clamp(2.6rem,6.2vw,4.6rem)] font-semibold leading-[1.04] tracking-tight-l text-ink">
+            <h1 className="text-[clamp(2.6rem,6.2vw,4.6rem)] font-semibold leading-[1.04] tracking-tight-l text-ink">
               Transfer pricing infrastructure for African corporate groups.
             </h1>
           </Reveal>

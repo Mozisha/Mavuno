@@ -11,7 +11,7 @@ const problems = [
   {
     n: "02",
     title: "Expensive defensibility",
-    body: "Big 4 fees are out of reach for most of the market — defensibility either costs more than the mid-market can carry, or it leaves you exposed.",
+    body: "Defensibility either costs more than the mid-market can carry, or it leaves you exposed to coverage that won't hold up under scrutiny.",
   },
   {
     n: "03",
@@ -27,7 +27,7 @@ export default function Problem() {
         <SectionHeader
           eyebrow="The problem"
           title="African transfer pricing has a data problem."
-          lead="African corporate groups face a compliance burden the existing infrastructure was never built for. Regulators are tightening, Big 4 fees are out of reach for most of the market, and the data needed to defend positions properly is fragmented across registries, filings, and jurisdictions."
+          lead="African corporate groups face a compliance burden the existing infrastructure was never built for. Regulators are tightening, defensibility is out of reach for most of the market, and the data needed to defend positions properly is fragmented across registries, filings, and jurisdictions."
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-3">
