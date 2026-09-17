@@ -45,7 +45,7 @@ export default function Navbar() {
             className="flex items-center"
             aria-label="Mavuno home"
           >
-            <img src="/mavuno-logo.png" alt="Mavuno" className="h-12 w-auto" />
+            <img src="/mavuno-logo.png" alt="Mavuno" className="h-16 w-auto" />
           </a>
 
           <div className="hidden items-center gap-8 lg:flex">
