@@ -7,7 +7,6 @@ const chain = [
   { k: "VERIFICATION", v: "provenance · validation" },
   { k: "ANALYSIS", v: "screening · benchmarking" },
   { k: "POSITION", v: "arm's length conclusion" },
-  { k: "DOCUMENTATION", v: "local · master · audit" },
 ];
 
 export default function Trust() {
@@ -21,7 +20,7 @@ export default function Trust() {
         />
 
         <Reveal delay={120}>
-          <div className="mt-14 grid gap-2 overflow-hidden rounded-xl border border-line bg-cream p-3 md:grid-cols-6 md:gap-0 md:border-0 md:bg-transparent md:p-0">
+          <div className="mt-14 grid gap-2 overflow-hidden rounded-xl border border-line bg-cream p-3 md:grid-cols-5 md:gap-0 md:border-0 md:bg-transparent md:p-0">
             {chain.map((c, i) => (
               <div key={c.k} className="relative">
                 <div className="flex h-full flex-col rounded-lg border border-line bg-white p-5 transition-shadow duration-200 hover:shadow-[0_6px_24px_rgba(7,42,32,0.06)] md:rounded-none md:border-r-0 md:first:rounded-l-lg md:last:rounded-r-lg md:last:border-r">

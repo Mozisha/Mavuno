@@ -13,10 +13,6 @@ const pillars = [
     k: "Defensible",
     v: "Work that holds up because the underlying data, method, and logic stand together.",
   },
-  {
-    k: "Continuous",
-    v: "Regulatory and business change tracked before it becomes an audit problem.",
-  },
 ];
 
 export default function ValueProposition() {
@@ -46,7 +42,7 @@ export default function ValueProposition() {
           </p>
         </Reveal>
 
-        <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-cream/15 bg-cream/15 md:grid-cols-4">
+        <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-cream/15 bg-cream/15 md:grid-cols-3">
           {pillars.map((p, i) => (
             <Reveal key={p.k} delay={i * 80} className="h-full">
               <div className="group h-full bg-forest p-8 transition-colors duration-300 hover:bg-forest-light">

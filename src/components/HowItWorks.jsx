@@ -17,16 +17,6 @@ const steps = [
     title: "Benchmark",
     body: "Build defensible comparable sets from the verified data spine.",
   },
-  {
-    n: "04",
-    title: "Document",
-    body: "Produce transfer pricing documentation and audit response workflows.",
-  },
-  {
-    n: "05",
-    title: "Monitor",
-    body: "Continuously track regulatory and business-side changes.",
-  },
 ];
 
 export default function HowItWorks() {
@@ -35,7 +25,7 @@ export default function HowItWorks() {
       <div className="container-x py-20 md:py-28">
         <SectionHeader
           eyebrow="How it works"
-          title="From first glance to continuous compliance."
+          title="From first glance to defensible benchmarking."
           className="mx-auto max-w-2xl"
           align="center"
         />
@@ -49,7 +39,7 @@ export default function HowItWorks() {
             className="absolute left-8 right-8 top-[27px] hidden h-px bg-line-dark md:block"
             aria-hidden="true"
           />
-          <div className="grid gap-10 md:grid-cols-5 md:gap-5">
+          <div className="grid gap-10 md:grid-cols-3 md:gap-5">
             {steps.map((s, i) => (
               <Reveal key={s.n} delay={i * 80}>
                 <div className="relative flex flex-col md:items-center md:text-center">

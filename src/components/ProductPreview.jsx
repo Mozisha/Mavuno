@@ -42,7 +42,7 @@ const comparables = [
   ["Kilimo Foods", "ZA", "R 12.4bn", "19.8%", "Verified"],
 ];
 
-const menuItems = ["Overview", "Entities", "Comparables", "Benchmarking", "Documentation", "Monitoring"];
+const menuItems = ["Overview", "Entities", "Comparables", "Benchmarking"];
 
 function BenchRow({ label, value, active = false }) {
   return (
@@ -66,7 +66,7 @@ function ProductPreview() {
         <SectionHeader
           eyebrow="The product"
           title="From fragmented data to defensible work."
-          lead="One workspace where tax professionals assemble comparables, run benchmarking, and produce documentation — every figure anchored to a verified African source."
+          lead="One workspace where tax professionals assemble comparables, run benchmarking, and produce a defensible benchmarking report — every figure anchored to a verified African source."
         />
 
         <Reveal delay={60}>
@@ -134,14 +134,6 @@ function ProductPreview() {
                             }`}
                           >
                             {item}
-                            {i === 4 ? (
-                              <span className={`font-mono text-[9px] ${active ? "text-cream/70" : "text-olive"}`}>
-                                76%
-                              </span>
-                            ) : null}
-                            {i === 5 ? (
-                              <span className="h-1.5 w-1.5 rounded-full bg-olive" aria-hidden="true" />
-                            ) : null}
                           </a>
                         );
                       })}
@@ -270,46 +262,6 @@ function ProductPreview() {
                           </ol>
                         </Panel>
                       </div>
-                    </div>
-
-                    <div className="grid grid-cols-12 gap-4">
-                      <Panel title="Documentation status" tag="LOCAL FILE · MASTER FILE" className="col-span-6">
-                        <div className="space-y-3">
-                          {[
-                            ["Local file — Nigeria", 76],
-                            ["Master file — group", 52],
-                            ["Audit response playbooks", 30],
-                          ].map(([label, pct]) => (
-                            <div key={label}>
-                              <div className="flex items-center justify-between text-[11.5px]">
-                                <span className="text-ink">{label}</span>
-                                <span className="font-mono text-[11px] text-slate">{pct}%</span>
-                              </div>
-                              <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-mist">
-                                <div
-                                  className="h-full rounded-full bg-forest/70"
-                                  style={{ width: `${pct}%` }}
-                                />
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </Panel>
-
-                      <Panel title="Regulatory monitoring" tag="WATCHLIST" className="col-span-6">
-                        <div className="space-y-2.5">
-                          {[
-                            ["NG · FIRS — TP guidelines update", "New"],
-                            ["KE · KRA — filing calendar shift", "Watch"],
-                            ["GH · GRA — documentation threshold", "Watch"],
-                          ].map(([label, state]) => (
-                            <div key={label} className="flex items-center justify-between">
-                              <span className="text-[11.5px] text-ink">{label}</span>
-                              <Badge tone={state === "New" ? "active" : "pending"}>{state}</Badge>
-                            </div>
-                          ))}
-                        </div>
-                      </Panel>
                     </div>
                   </div>
                 </div>

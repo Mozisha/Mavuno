@@ -98,8 +98,8 @@ function SpinePanel() {
         />
         <SpineNode
           step={7}
-          title="Transfer pricing documentation"
-          sub="Local file, master file, audit response"
+          title="Defensible benchmarking report"
+          sub="Transparent comparable selection, acceptance and rejection analysis, median and interquartile range calculations, and full audit-ready benchmarking support."
           mono="status: ready"
         />
       </div>

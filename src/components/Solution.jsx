@@ -44,19 +44,11 @@ const stages = [
   },
   {
     n: "06",
-    tag: "Document",
-    title: "Documentation",
-    body: "Local file, master file, and audit response workstreams built on the same spine.",
-    chip: "Documentation ready",
-    chipMono: "local file · master file",
-  },
-  {
-    n: "07",
-    tag: "Monitor",
-    title: "Continuous monitoring",
-    body: "Regulatory and business-side change tracked before compliance problems become audit problems.",
-    chip: "Ongoing watch active",
-    chipMono: "regulatory · business",
+    tag: "Report",
+    title: "Defensible benchmarking report",
+    body: "Transparent comparable selection, acceptance and rejection analysis, median and interquartile range calculations, and full audit-ready benchmarking support.",
+    chip: "Benchmarking report ready",
+    chipMono: "selection · IQR · audit-ready",
   },
 ];
 
@@ -135,11 +127,10 @@ export default function Solution() {
         </div>
 
         <Reveal delay={100}>
-          <div className="mx-auto mt-16 grid max-w-4xl gap-6 border-t border-line pt-12 md:grid-cols-3">
+          <div className="mx-auto mt-16 grid max-w-4xl gap-6 border-t border-line pt-12 md:grid-cols-2">
             {[
               { k: "Provenance", v: "Every conclusion traceable to source." },
               { k: "Verification", v: "Every position built on verified African comparables." },
-              { k: "Monitoring", v: "Continuous before compliance problems become audit problems." },
             ].map((c) => (
               <div key={c.k} className="flex flex-row items-start gap-3 md:flex-col">
                 <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-olive">

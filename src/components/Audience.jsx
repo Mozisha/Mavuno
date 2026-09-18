@@ -6,7 +6,7 @@ const audiences = [
   {
     k: "Mid-market corporate groups",
     n: "01",
-    body: "A workflow product that produces defensible benchmarking studies, local files, and audit response documentation at a fraction of the cost and time of traditional providers.",
+    body: "A workflow product that produces defensible benchmarking studies and audit response support at a fraction of the cost and time of traditional providers.",
     tag: "defensible work · lower cost",
   },
   {
@@ -14,6 +14,18 @@ const audiences = [
     n: "02",
     body: "Neutral access to verified African corporate intelligence. The data infrastructure supports analysis while enforcement judgment stays with the authority.",
     tag: "neutral data · enforcement stays",
+  },
+  {
+    k: "Consulting, audit and accounting firms",
+    n: "03",
+    body: "Accelerate the production of benchmarking studies with a verified African comparables dataset. Reduce analyst time spent on data collection and validation while maintaining transparency, consistency and audit defensibility.",
+    tag: "Faster delivery · consistent quality",
+  },
+  {
+    k: "Legal teams",
+    n: "04",
+    body: "Access the underlying comparable company evidence, screening rationale, financial data and benchmarking outputs needed to support transfer pricing opinions, controversy management, audits and dispute resolution.",
+    tag: "Evidence ready · dispute ready",
   },
 ];
 
@@ -24,7 +36,7 @@ export default function Audience() {
         <SectionHeader
           eyebrow="Who it's for"
           title="Built for the African transfer pricing ecosystem."
-          lead="One verified data spine supports the whole ecosystem — the groups being assessed and the authorities assessing them."
+          lead="One verified data spine supports the whole ecosystem — the groups being assessed, the professionals advising them, and the authorities assessing them."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2">
