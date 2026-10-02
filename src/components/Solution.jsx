@@ -87,7 +87,7 @@ export default function Solution() {
               {stages.map((s, i) => (
                 <Reveal key={s.n} delay={60} className="relative">
                   <span
-                    className="absolute left-[15px] top-5 z-10 flex h-7 w-7 -translate-x-1/2 items-center justify-center rounded-full border border-forest/30 bg-white font-mono text-[10.5px] text-slate md:left-1/2"
+                    className="absolute left-[15px] top-5 z-10 flex h-7 w-7 -translate-x-1/2 items-center justify-center rounded-full border border-forest/30 bg-white font-mono text-[10.5px] text-amber md:left-1/2"
                   >
                     {s.n}
                   </span>
@@ -98,7 +98,7 @@ export default function Solution() {
                   >
                     <div className="rounded-lg border border-line bg-white p-6 transition-shadow duration-300 hover:shadow-[0_8px_30px_rgba(7,42,32,0.07)] md:p-7">
                       <div className="flex flex-wrap items-center gap-3">
-                        <span className="font-mono text-[10.5px] uppercase tracking-[0.14em] text-olive">
+                        <span className="font-mono text-[10.5px] uppercase tracking-[0.14em] text-amber">
                           {s.tag}
                         </span>
                         <span className="h-px w-5 bg-line" aria-hidden="true" />
