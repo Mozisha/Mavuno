@@ -26,21 +26,21 @@ export default function CTASection() {
         </Reveal>
         <Reveal delay={200}>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Button href="mailto:hello@mavuno.io" size="lg">
+            <Button href="mailto:team@mavuno.io" size="lg">
               Contact Us
               <ArrowIcon />
             </Button>
-            <Button href="mailto:hello@mavuno.io" size="lg" variant="outline">
+            <Button href="mailto:team@mavuno.io" size="lg" variant="outline">
               Contact us
             </Button>
           </div>
         </Reveal>
         <Reveal delay={260}>
           <a
-            href="mailto:hello@mavuno.io"
+            href="mailto:team@mavuno.io"
             className="mt-9 inline-block font-mono text-[13px] tracking-[0.08em] text-slate transition-colors hover:text-forest"
           >
-            hello@mavuno.io
+            team@mavuno.io
           </a>
         </Reveal>
       </div>

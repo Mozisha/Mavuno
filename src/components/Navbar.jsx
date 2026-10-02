@@ -142,10 +142,10 @@ Contact Us
               Contact Us
             </Button>
             <a
-              href="mailto:hello@mavuno.io"
+              href="mailto:team@mavuno.io"
               className="mt-6 block text-center font-mono text-[12px] tracking-[0.1em] text-slate"
             >
-              hello@mavuno.io
+              team@mavuno.io
             </a>
           </div>
         </div>

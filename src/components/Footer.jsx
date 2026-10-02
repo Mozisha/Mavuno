@@ -41,10 +41,10 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <p className="eyebrow-label mb-5 text-cream/50">Contact</p>
             <a
-              href="mailto:hello@mavuno.io"
+              href="mailto:team@mavuno.io"
               className="font-mono text-[13.5px] tracking-[0.04em] text-cream/90 transition-colors hover:text-white"
             >
-              hello@mavuno.io
+              team@mavuno.io
             </a>
           </div>
         </div>
