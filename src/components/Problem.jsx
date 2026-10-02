@@ -35,7 +35,7 @@ export default function Problem() {
             <Reveal key={p.n} delay={i * 90}>
               <Card className="group h-full">
                 <div className="flex items-baseline justify-between">
-                  <span className="font-mono text-[12px] tracking-[0.1em] text-olive">
+                  <span className="font-mono text-[12px] tracking-[0.1em] text-amber">
                     {p.n}
                   </span>
                   <span

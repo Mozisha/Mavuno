@@ -135,8 +135,8 @@ export default function Africa() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <Reveal>
-              <span className="eyebrow-label flex items-center gap-3 text-olive">
-                <span className="h-px w-8 bg-olive/60" aria-hidden="true" />
+              <span className="eyebrow-label flex items-center gap-3 text-amber">
+                <span className="h-px w-8 bg-amber/30" aria-hidden="true" />
                 Why Africa
               </span>
             </Reveal>

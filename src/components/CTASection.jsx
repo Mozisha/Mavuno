@@ -6,16 +6,16 @@ export default function CTASection() {
     <section id="contact" className="border-y border-line bg-white">
       <div className="container-x py-20 text-center md:py-28">
         <Reveal>
-          <span className="eyebrow-label flex items-center justify-center gap-3 text-olive">
-            <span className="h-px w-8 bg-olive/60" aria-hidden="true" />
+          <span className="eyebrow-label flex items-center justify-center gap-3 text-amber">
+            <span className="h-px w-8 bg-amber/40" aria-hidden="true" />
             Get in touch
-            <span className="h-px w-8 bg-olive/60" aria-hidden="true" />
+            <span className="h-px w-8 bg-amber/40" aria-hidden="true" />
           </span>
         </Reveal>
         <Reveal delay={80}>
           <h2 className="mx-auto mt-6 max-w-3xl text-[clamp(2rem,4.6vw,3.4rem)] font-semibold leading-[1.1] tracking-tight-m text-ink">
-            Build transfer pricing infrastructure for the markets you actually
-            operate in.
+            Build transfer pricing infrastructure for the{" "}
+            <span className="text-amber">markets you actually operate in.</span>
           </h2>
         </Reveal>
         <Reveal delay={140}>

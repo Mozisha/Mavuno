@@ -20,12 +20,10 @@ export function SectionHeader({
     >
       {eyebrow ? (
         <span
-          className={`eyebrow-label flex items-center gap-3 ${
-            dark ? "text-cream/60" : "text-olive"
-          }`}
+          className={`eyebrow-label flex items-center gap-3 text-amber`}
         >
           <span
-            className={`h-px w-8 ${dark ? "bg-cream/40" : "bg-olive/60"}`}
+            className="h-px w-8 bg-amber/40"
             aria-hidden="true"
           />
           {eyebrow}

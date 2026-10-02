@@ -122,7 +122,8 @@ export default function Hero() {
         <div className="lg:col-span-7">
           <Reveal delay={80}>
             <h1 className="text-[clamp(2.6rem,6.2vw,4.6rem)] font-semibold leading-[1.04] tracking-tight-l text-ink">
-              Transfer pricing infrastructure for African corporate groups.
+              Transfer pricing infrastructure for{" "}
+              <span className="text-amber">African</span> corporate groups.
             </h1>
           </Reveal>
 
@@ -159,7 +160,7 @@ export default function Hero() {
                 ["03", "Purpose-built for African markets"],
               ].map(([n, label]) => (
                 <div key={n} className="flex items-center gap-3">
-                  <span className="font-mono text-[11px] tracking-[0.1em] text-olive">
+                  <span className="font-mono text-[11px] tracking-[0.1em] text-amber">
                     {n}
                   </span>
                   <span className="max-w-[180px] text-[12.5px] font-medium leading-snug text-slate">

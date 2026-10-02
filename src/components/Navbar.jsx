@@ -32,8 +32,8 @@ export default function Navbar() {
       <header
         className={`sticky top-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-white/90 backdrop-blur-md border-b border-line shadow-[0_1px_0_rgba(7,42,32,0.04)]"
-            : "bg-white/60 backdrop-blur-sm border-b border-transparent"
+            ? "bg-white border-b border-line shadow-[0_1px_0_rgba(7,42,32,0.04)]"
+            : "bg-white border-b border-line"
         }`}
       >
         <nav
@@ -45,7 +45,7 @@ export default function Navbar() {
             className="flex items-center"
             aria-label="Mavuno home"
           >
-            <img src="/mavuno.png" alt="Mavuno" className="h-11 w-auto sm:h-16" />
+            <img src="/mavuno-log.png" alt="Mavuno" className="h-11 w-auto sm:h-16" />
           </a>
 
           <div className="hidden items-center gap-8 lg:flex">

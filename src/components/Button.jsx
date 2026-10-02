@@ -1,7 +1,7 @@
 import { Link } from "./Link.jsx";
 
 const base =
-  "group inline-flex items-center justify-center gap-2 font-medium text-sm tracking-tight transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-3 cursor-pointer select-none whitespace-nowrap";
+  "group inline-flex items-center justify-center gap-2 font-medium text-sm tracking-tight transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-3 cursor-pointer select-none whitespace-nowrap rounded-full";
 
 const sizes = {
   sm: "h-9 px-4",
