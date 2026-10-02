@@ -30,9 +30,6 @@ export default function CTASection() {
               Contact Us
               <ArrowIcon />
             </Button>
-            <Button href="mailto:team@mavuno.io" size="lg" variant="outline">
-              Contact us
-            </Button>
           </div>
         </Reveal>
         <Reveal delay={260}>
